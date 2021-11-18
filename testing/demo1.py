@@ -5,5 +5,6 @@
 # @File: demo1.py.PY
 # @Software: PyCharm
 
+def test(self):
+    pass
 
-class Calc:
