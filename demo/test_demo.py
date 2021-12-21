@@ -28,6 +28,7 @@ class TestDemo():
         # self.driver.get('https://work.weixin.qq.com/wework_admin/loginpage_wx')
         # sleep(15)
         # print(self.driver.get_cookies())
+        # 使用cookie需要在之前请求一下网址
         self.driver.get('https://work.weixin.qq.com/wework_admin/frame')
         # shelve 相当于一个小型的数据库
         db = shelve.open("cookies")
